@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  auth_service:
+    build: ./auth
+    container_name: auth_service
+    ports:
+      - "8001:8001"
+
+  books_service:
+    build: ./books
+    container_name: books_service
+    ports:
+      - "8002:8002"
+    depends_on:
+      - auth_service
