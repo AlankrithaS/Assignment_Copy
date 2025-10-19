@@ -8,6 +8,7 @@ It follows a **microservices architecture** with modular components and **JWT-ba
 
 ---
 
+
 ## ⚙️ Core Features
 
 ### 🧑‍💻 User Authentication
@@ -127,7 +128,7 @@ docker-compose up --build
 4. **Run the application**
 
    ```bash
-   uvicorn main:app --reload
+   uvicorn src.main:app --reload
    ```
 
 ---
@@ -148,3 +149,4 @@ Once the app is running, test the endpoints using:
 📂 [Project Drive Link](https://drive.google.com/drive/u/0/folders/17VtxfgBIb0hVggFEe3SUcMkwM0ZHyzO3)
 
 ---
+
